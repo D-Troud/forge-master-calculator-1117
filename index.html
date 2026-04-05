@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>포지마스터 계산기</title>
+
+<style>
+body{font-family:Arial;background:#0f0f0f;color:white;text-align:center;padding:50px;}
+h1{color:#ffd700;}
+button{
+padding:20px 40px;
+margin:15px;
+font-size:18px;
+background:#1e1e1e;
+color:white;
+border:none;
+border-radius:10px;
+cursor:pointer;
+}
+button:hover{background:#333;}
+</style>
+
+</head>
+
+<body>
+
+<h1>포지마스터 계산기</h1>
+<p>제작자 : 21서버 Dominant 클랜 리더 Troud</p>
+
+<br><br>
+
+<button onclick="go('https://d-troud.github.io/forge-calculator/')">🔨 대장간 계산기</button><br>
+<button onclick="go('https://d-troud.github.io/skill-calculator/')">✨ 스킬 계산기</button><br>
+<button onclick="go('https://d-troud.github.io/pet-calculator/')">🥚 펫 계산기</button><br>
+<button onclick="go('https://d-troud.github.io/mount-calculator/')">⚙️ 탈것 계산기</button>
+
+<script>
+function go(page){
+location.href=page
+}
+</script>
+
+</body>
+</html>
